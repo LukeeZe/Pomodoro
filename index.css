@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  
+}
+body {
+  height: 100vh;
+}
+.bigcontainer {
+    display: flex;
+    flex-direction: row;
+    
+    height: 100vh;
+    width: 100vw;
+    justify-content:flex-start;
+margin-bottom: 0;
+}
+.container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    margin-top: 150px;
+    margin-left: 600px;
+    margin-bottom: 0;
+}
+.containertimer {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 360px;
+    border: solid 20px blue;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.h1timer {
+    
+    font-size: 60px;
+    margin-bottom: 90px;
+}
+
+.buttonyellow {
+    background-color:yellow;
+}
+
+.navbar {
+    border: 0 0 0 5px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 15vw;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.navset {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.opacity {
+    
+    background-color: white;
+    border: 0;
+}
+.opacity2 {
+    border: solid 1px black;
+    border-radius: 123px;
+    height: 40px;
+    width: 40px;
+}
+
+
+.switch {
+    margin-top: 15px;
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 27px;
+  }
+  
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+ 
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    
+    transition: .4s;
+    border-radius: 100px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    
+    transition: .4s;
+    border-radius: 100px;
+    
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    
+    transform: translateX(26px);
+  }
+  
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .div7to10 {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .div1to4 {
+    display:flex; 
+    flex-direction: column;
+  }
+
+  .containerRange {
+    width: 500px;
+    height: 1200px;
+    margin-left: 400px;
+  }
+
+  .selectOne {
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+  }
+  .selectTwo {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width:400px;
+    height: 40px;
+  }
+
+  option {
+    font-size: 20px;
+  }
+
+  .darkMode {
+    background-color: black;
+    color: white;
+  }
+
+  .opacity3 {
+    margin-top: 40vh;
+    padding-bottom: 10vh;
+    
+  }
+
+  .bubul {
+    width:25px;
+    height:25px;
+    background-color: blue;
+    position: relative;
+    border-radius: 0px 50% 50% 50%;
+    
+    transform: rotate(-135deg);
+  }
+
+  .inputOneT {
+    position: absolute;
+    
+  }
+
+  .pp {
+    transform: rotate(135deg);
+    color: white;
+    padding-left: 7px;
+    padding-bottom: 2px;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .divOneRange {
+    margin-top: 150px;
+  }
+
+  .h1focus {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -75px;
+  }
+  .butTime {
+    
+    width: 50px;
+    height: 50px;
+    
+  }
+
+  .butTimer {
+    margin-bottom: 50px;
+    font-size: 35px;
+  }
+  
+  .containerRangers {
+    height: 100vh;
+  }
